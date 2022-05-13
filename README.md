@@ -1,22 +1,22 @@
-# Linux ALVR port is broken, here will be how to fix
+# Linux ALVR port is working now, just download, extract and run
 
-## Basic Fix
+## Basic Run
 
 1. Have ONLY steam RUNTIME and steamVr installed (Flatpak not working and Native from Manjaro is problematic)
 
-2. Run the terminal in the root path of these files (Typically right click on this folder and open in terminal)
+2. Install [SteamVr](https://store.steampowered.com/app/250820/SteamVR/) on Steam
+
+3. [Download](https://github.com/alvr-org/ALVR/releases) and extract files here of the `alvr_server_linux_portable.tar.gz` 
+
+4. Run `./run_alvr.sh` in the root path of these files
 
 ![](screenshots/Screenshot-20220505205028-1005x539.png)
+ 
 
-3. Run `./install_libs.sh` to install the missing libraries on system
-
-4. 
-
-## Warnings
+## Tips
 
 - Your GPU may crash when starting streaming, just restart and try again
 
-Original download
+- Wayland can be more stable, but you can't acess your screen.
 
-https://github.com/alvr-org/ALVR/releases/download/v18.2.1/alvr_server_linux_portable.tar.gz
-https://github.com/alvr-org/ALVR/releases/tag/v18.2.1
+- Audio stream is not ready
